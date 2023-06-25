@@ -6,7 +6,7 @@
     if (savedUsername && savedPassword) {
       var loginButton = document.createElement('button');
       loginButton.setAttribute('id', 'existing');
-      loginButton.textContent = 'Login as existing user';
+      loginButton.textContent = 'existing';
       loginButton.addEventListener('click', function() {
         alert('Logged in as ' + savedUsername);
       });
